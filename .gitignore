@@ -123,8 +123,8 @@ sql/catalyst/src/main/antlr4/org/apache/spark/sql/catalyst/parser/gen/
 
 # For enviroments
 *.env
-*.yaml
 .ipython
 .ipynb_checkpoints
+.jupyter
 .local
 *:Zone.Identifier
