@@ -1,0 +1,13 @@
+version: "3"
+services:
+  pyspark:
+    image: "jupyter/pyspark-notebook:latest"
+    environment:
+      SERVER: ${SERVER}
+      DATABASE: ${DATABASE}
+      USERNAME: ${USERNAME}
+      PASSWORD: ${PASSWORD}
+    volumes:
+      - .:/home/jovyan
+    ports:
+      - 8888:8888
