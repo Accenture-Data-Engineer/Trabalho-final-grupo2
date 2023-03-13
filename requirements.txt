@@ -1,0 +1,6 @@
+docker==4.1.0
+docker-compose==1.25.0
+pandas==1.5.2
+pyodbc==4.0.35
+python-dotenv==0.21.0
+SQLAlchemy==2.0.5.post1
