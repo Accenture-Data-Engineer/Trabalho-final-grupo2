@@ -32,9 +32,13 @@
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
-<h2> :book: Spark (Pyhton) </h2>
+<h2> :book: Principais ferramentas utilizadas </h2>
 
-<p>Sobre Spark, seu uso </p>
+<p>Spark é uma biblioteca de processamento de dados distribuído que oferece uma plataforma escalável para análise e processamento de grandes volumes de dados em tempo real. Sua importância reside na sua capacidade de acelerar o processamento de dados através da execução em paralelo em clusters de servidores, permitindo a execução de algoritmos sofisticados em grandes conjuntos de dados.
+
+No contexto de detecção de fraudes, o Spark é especialmente útil para analisar conjuntos de dados para detectar padrões e anomalias que possam indicar atividades fraudulentas. O Spark tornou-se uma ferramenta essencial dentro do nosso trabalho para a detecção de fraudes, permitindo a identificação e ação imediata em transações suspeitas feitas em contas de clientes com um intervalo menor que 2 minutos, ajudando a prevenir perdas financeiras e proteger a segurança dos usuários de conta corrente.</p>
+
+<p>Também contamos com o auxílio da bibliteca Pandas nos Dataframes, já que esta ferramenta além de posuir compatibilidade com o Spark, auxilia com sua melhor visualização do Dataframe, e com facilidade de uso, por ser mais popular e ter filtragens de dados melhor documentadas.</p>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
