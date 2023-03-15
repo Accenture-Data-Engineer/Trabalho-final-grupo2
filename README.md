@@ -70,8 +70,10 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
 <p><b>1) Arquivos CSV (as tabelas que utilzamos para todo o projeto)</b></p>
 <p>Primeiro, caso você queira checar nossos dados e realizar sua próprias análises, você deve separar os principais datasets tratdos, dentre eles dentro da pasta "data" temos uma outra pasta "clients" na qual você pode acessar a pasta "clients_clean" e usufruir de qualquer um dos csv ali dispostos, quase o mesmo caminho você pode acessar as transações abrindo a pasta de "transaction" e depois "transaction_clean", por fim abra a pasta "fraudes" e acesse ou o dataset principal "dataset_fraude.csv", ou só com fraudes de entrada "dataset_fraudes_in.csv", ou só com fraudes de saída "dataset_fraudes_out.csv".</p>
 
+<p><b>2) Arquivos executáveis (arquivos que podem ser modificados e analisados para entender os processos)</b></p>
 <p>Depois você pode explorar qualquer um dos nossos arquivos executáveis, descritos aqui na parte de "descrição dos arquivos do projeto", os arquivos com terminação .py ou .ipynb são ligados a códigos de Python utiliados para fazer a limpeza e organização dos dados, a filtragem de fraudes ou para a conexão dos dados com a Azure ou Power BI.Também possuímos os arquivos com final .sql, que sâo utilizados para as measures do nosso dashboard, diferente do nosso arquivo vom final .pbix que você pode visualizar o arquivo final do POwer BI do nosso dashboard.</p>
 
+<p><b>3) Dashboard Power BI</b></p>
 <p>Finalizando, caso você não queira abrir os arquivos disponibilizamo aqui o link para nosso dashboard interativo, nele você pode tirar diversos insights, questionamentos e filtrar por categorias ou dados únicos.</p>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
