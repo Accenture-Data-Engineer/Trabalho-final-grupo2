@@ -14,19 +14,30 @@
 
 <p>As fraudes em conta corrente podem ocorrer por meio de phishing, onde o fraudador envia e-mails falsos, mensagens de texto, ou utilizar técnicas de engenharia social, como manipulação psicológica, para obter informações confidenciais, como senhas e dados bancários. Também podem ocorrer por meio de skimming, onde os dados do cartão de crédito ou débito são roubados por meio de um dispositivo eletrônico instalado em um caixa eletrônico ou em um terminal de pagamento. Outra forma de fraude em conta corrente é o roubo de identidade, em que o fraudador usa informações pessoais roubadas para abrir contas falsas ou realizar transações em nome da vítima.
 
-<p>É muito importante tomar medidas de segurança para proteger sua conta corrente, pensando nisso desenvolvemos para os bancos uma aplicação em Python para carga de arquivos em um banco de dados SQL e geração de relatórios estatísticos visando a descoberta dessas fraudes.</p>
+<p>É muito importante tomar medidas de segurança para proteger sua conta corrente, pensando nisso <strong>desenvolvemos para os bancos uma aplicação em Python para carga de arquivos em um banco de dados SQL e geração de relatórios estatísticos visando a descoberta dessas fraudes.</strong></p>
 
 <h2> :floppy_disk: DESCRIÇÃO DOS ARQUIVOS DO PROJETO</h2>
 
 <p>Esse projeto inclui xxx, como a seguir:</p>
 <h4>Arquivos executáveis:</h4>
 <ul>
-  <li><b>.py or .ipynb</b> - Usa </li>
+  <li><b>connection.py</b> - Usado para conectar nossos dados para o banco de dados da Azure via SQL Alchemy</li>
+  <li><b>main.ipynb</b> - Usado para criar esquemas das tabelas, limpeza e organização dados originais para se tornarem tratados</li>
+  <li><b>query_filtrar_fraudes.ipynb</b> - Usado para filtrar as fraudes (in, out e total) em Python com com PySpark e Pandas</li>
+  <li><b>migration.py</b> - Usado para realizar a conexão com o banco de dados e importar as tabelas para o Power BI</li>
+  <li><b>create_table.sql</b> - Usado para criar tabelas de cliente, transações e fraudes</li>
+  <li><b>fraud_view.sql</b> - Usado para criar visualização das fraudes utilizando SQL</li>
+  <li><b>state_code.sql</b> - Usado para criar tabela de estados para a tentaiva de gráfico por região em nosso Dashboard</li>
+  <li><b>projeto_final.pbix</b> - Usado para criar as mesuares utilizadas no Dashboard</li>
 </ul>
 
 <h4>Arquivos de destino:</h4>
 <ul>
-  <li><b>csv</b> - Contém </li>
+  <li><b>requirements.txt</b> - Contém as versões dos módulos utilizados para o docker do Spark</li>
+  <li><b>docker-compose.yaml</b> - Contém o código para baixar o Spark de forma mais intuitiva e facilitada através de um docker</li>
+  <li><b>pasta clients</b> - Contém os csv ligados aos clientes, os datasets originais e os nossos já tratados</li>
+  <li><b>pasta transaction</b> - Contém os csv ligados as transações, os datasets originais e os nossos já tratados</li>
+  <li><b>pasta fraude</b> - Contém os csv ligados a fraudes, separados por fraudes totais, de transações Out (dinehiro que saiu) ou In (dinheiro que entrou)</li>
 </ul>
 
 <h4>Diretórios fonte:</h4>
@@ -153,6 +164,6 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
          <img src="https://images2.imgbox.com/40/85/oAMwTMOI_o.jpeg" alt="image host" height="120px"/>
          <img src="https://images2.imgbox.com/6e/3b/s9CBuXB9_o.jpeg" alt="image host" height="120px"/>
          </p>
-        <h3 align="middle">Camila Avila&emsp;&emsp;Danilo Aparecido&emsp;&emsp;Ynna&emsp;</h3>
+        <h3 align="middle">Camila Avila&emsp;Danilo Aparecido&emsp;Ynna</h3>
        </td>
   </tr>
