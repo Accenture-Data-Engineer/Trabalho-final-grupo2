@@ -33,9 +33,6 @@ df_clients['Data_cadastro'] = df_clients['Data_cadastro'].dt.tz_localize(None)
 df_transaction['DataHora'] = pd.to_datetime(df_transaction['DataHora'], format='%Y-%m-%d %H:%M:%S')
 df_transaction['DataHora'] = df_transaction['DataHora'].dt.tz_localize(None)
 
-# Coluna de Id fora da normalização (Ids repetidos)
-df_transaction = df_transaction.drop('Id', axis=1)
-
 print(df_clients.info())
 print(df_transaction.info())
 
