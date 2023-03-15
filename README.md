@@ -30,7 +30,7 @@
   <li><b>create_table.sql</b> - Usado para criar tabelas de cliente, transações e fraudes</li>
   <li><b>fraud_view.sql</b> - Usado para criar visualização das fraudes utilizando SQL</li>
   <li><b>state_code.sql</b> - Usado para criar tabela de estados para a tentaiva de gráfico por região em nosso Dashboard</li>
-  <li><b>projeto_final.pbix</b> - Usado para criar as mesuares utilizadas no Dashboard</li>
+  <li><b>projeto_final.pbix</b> - Usado para o arquivo final do Dashboard do Power BI com todas as measures finais</li>
 </ul>
 
 <h4>Arquivos de destino:</h4> 
@@ -51,11 +51,15 @@
 
 <h2> :book: PRINCIPAIS FERRAMENTAS UTILIZADAS </h2>
 
-<p><strong>Spark</strong> é uma biblioteca de processamento de dados distribuído que oferece uma plataforma escalável para análise e processamento de grandes volumes de dados em tempo real. Sua importância reside na sua capacidade de acelerar o processamento de dados através da execução em paralelo em clusters de servidores, permitindo a execução de algoritmos sofisticados em grandes conjuntos de dados.
+<p>Primeiramente, utilizamos o<strong>Spark</strong> que é uma biblioteca de processamento de dados distribuído que oferece uma plataforma escalável para análise e processamento de grandes volumes de dados em tempo real. Sua importância reside na sua capacidade de acelerar o processamento de dados através da execução em paralelo em clusters de servidores, permitindo a execução de algoritmos sofisticados em grandes conjuntos de dados.
 
 No contexto de detecção de fraudes, o Spark é especialmente útil para analisar conjuntos de dados para detectar padrões e anomalias que possam indicar atividades fraudulentas. O Spark tornou-se uma ferramenta essencial dentro do nosso trabalho para a detecção de fraudes, permitindo a identificação e ação imediata em transações suspeitas feitas em contas de clientes com um intervalo menor que 2 minutos, ajudando a prevenir perdas financeiras e proteger a segurança dos usuários de conta corrente.</p>
 
 <p>Também contamos com o auxílio da bibliteca <strong>Pandas</strong> nos Dataframes, já que esta ferramenta além de posuir compatibilidade com o Spark, auxilia com sua melhor visualização do Dataframe, e com facilidade de uso, por ser mais popular e ter filtragens de dados melhor documentadas.</p>
+
+<p>Depois temos a <strong>Azure</strong> que é uma plataforma de computação em nuvem oferecida pela Microsoft, que fornece uma ampla variedade de serviços de infraestrutura e aplicativos para empresas. A Azure foi importante para o uso de máquinas virtuais e bancos de dados nas fraudes de conta corrente, pois permitiu ao nosso grupo criar e gerenciar esses recursos de forma rápida, conjunta e escalável, além de fornecer alta disponibilidade, segurança e desempenho.</p>
+
+<p>Com isso chegmaos ao <strong>SQL</strong>, que é uma linguagem de programação utilizada para gerenciar e manipular bancos de dados relacionais. Ela permitiu a criação, atualização e consulta dos nossos dados no banco de dados, através do <strong>SQL Server</strong> que é um sistema de gerenciamento de banco de dados relacional da Microsoft que utiliza a linguagem SQL. Quando utilizamos em conjunto com a plataforma Azure, o SQL Server se tornou uma solução altamente escalável e flexível para armazenamento e processamento de dados, permitindo que nosso grupo gerenciasse nossos bancos de dados de forma eficiente e sem conjunto na nuvem.</p>
 
 <p> Por fim, utilizamos do <strong>Power BI</strong>, uma ferramenta de business intelligence desenvolvida pela Microsoft, que permite a criação de dashboards e relatórios interativos com base em dados de diversas fontes. Para o nosso dashboard de fraudes de conta corrente, o Power BI foi importante por permitir a visualização clara e rápida dos dados, bem como a criação de gráficos e tabelas que facilitam a identificação de padrões e anomalias. Com o uso do Power BI, foi possível reunir informações de diversas fontes, como transações bancárias e dados de clientes, e consolidá-las em um único painel, tornando a análise mais eficiente e precisa.</p>
 
@@ -68,15 +72,21 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
 
 <p>Depois você pode explorar qualquer um dos nossos arquivos executáveis, descritos aqui na parte de "descrição dos arquivos do projeto", os arquivos com terminação .py ou .ipynb são ligados a códigos de Python utiliados para fazer a limpeza e organização dos dados, a filtragem de fraudes ou para a conexão dos dados com a Azure ou Power BI.Também possuímos os arquivos com final .sql, que sâo utilizados para as measures do nosso dashboard, diferente do nosso arquivo vom final .pbix que você pode visualizar o arquivo final do POwer BI do nosso dashboard.</p>
 
-<p>Finalizando, </p>
+<p>Finalizando, caso você não queira abrir os arquivos disponibilizamo aqui o link para nosso dashboard interativo, nele você pode tirar diversos insights, questionamentos e filtrar por categorias ou dados únicos.</p>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
 <h2> :books: FERRAMENTAS </h2>
 <ul>
-  <li><p>Nome </p>
-      <p>Available: Link</p>
-  </li>
+  <li>Azure</li>
+   <li>Power BI</li>
+    <li>Python</li>
+   <li>PySpark</li>
+   <li>Pandas</li>
+    <li>SQL Server</li>
+    <li>Docker compose</li>
+    <li>DAX</li>
+    <li>SQL Alchemy</li>
 </ul>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
