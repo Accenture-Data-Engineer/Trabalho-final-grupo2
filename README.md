@@ -20,7 +20,7 @@
 
 <h2> :floppy_disk: DESCRIÇÃO DOS ARQUIVOS DO PROJETO</h2>
 
-<p>Esse projeto inclui xxx, como a seguir:</p>
+<p>Esse projeto inclui arquivos executáveis e de destino, além de você conseguir acesso ao nosso diretório fonte (repositório), como a seguir:</p>
 <h4>Arquivos executáveis:</h4>
 <ul>
   <li><b>connection.py</b> - Usado para conectar nossos dados para o banco de dados da Azure via SQL Alchemy</li>
