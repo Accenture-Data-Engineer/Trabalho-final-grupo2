@@ -10,11 +10,13 @@
 <a href="https://imgbox.com/mlNPr8ij" target="_blank"><img src="https://images2.imgbox.com/aa/35/mlNPr8ij_o.gif" alt="image host" height="142px"/></a>
 </p>
 
-<h2> :brain: CONTEXTO E OBJETIVOS</h2>
+<h2> :brain: CONTEXTO E OBJETIVO</h2>
 
 <p>As fraudes em conta corrente podem ocorrer por meio de phishing, onde o fraudador envia e-mails falsos, mensagens de texto, ou utilizar técnicas de engenharia social, como manipulação psicológica, para obter informações confidenciais, como senhas e dados bancários. Também podem ocorrer por meio de skimming, onde os dados do cartão de crédito ou débito são roubados por meio de um dispositivo eletrônico instalado em um caixa eletrônico ou em um terminal de pagamento. Outra forma de fraude em conta corrente é o roubo de identidade, em que o fraudador usa informações pessoais roubadas para abrir contas falsas ou realizar transações em nome da vítima.
 
-<p>É muito importante tomar medidas de segurança para proteger sua conta corrente, pensando nisso <strong>desenvolvemos para os bancos uma aplicação em Python para carga de arquivos em um banco de dados SQL e geração de relatórios estatísticos visando a descoberta dessas fraudes.</strong></p>
+<p>É muito importante tomar medidas de segurança para proteger sua conta corrente, pensando nisso <strong>desenvolvemos para os bancos uma aplicação em Python para carga de arquivos em um banco de dados SQL e geração de relatórios estatísticos visando a descoberta dessas fraudes, a conta fraudada, foi considerada aquele que tinha movimentações abaixo de 2 minutos de espaçamento entre as transações.</strong></p>  
+
+<p>Observação: <i>É importante ressaltar que as informações referentes a contas correntes são consideradas dados sensíveis e, portanto, devem ser protegidas de forma adequada. No entanto, no contexto da avaliação deste trabalho, optamos por disponibilizar dados fictícios para ilustrar nossos resultados e análises.</i></p>
 
 <h2> :floppy_disk: DESCRIÇÃO DOS ARQUIVOS DO PROJETO</h2>
 
@@ -31,7 +33,7 @@
   <li><b>projeto_final.pbix</b> - Usado para criar as mesuares utilizadas no Dashboard</li>
 </ul>
 
-<h4>Arquivos de destino:</h4>
+<h4>Arquivos de destino:</h4> 
 <ul>
   <li><b>requirements.txt</b> - Contém as versões dos módulos utilizados para o docker do Spark</li>
   <li><b>docker-compose.yaml</b> - Contém o código para baixar o Spark de forma mais intuitiva e facilitada através de um docker</li>
@@ -40,33 +42,37 @@
   <li><b>pasta fraude</b> - Contém os csv ligados a fraudes, separados por fraudes totais, de transações Out (dinehiro que saiu) ou In (dinheiro que entrou)</li>
 </ul>
 
-<h4>Diretórios fonte:</h4>
+<h4>Diretório fonte:</h4>
 <ul>
-  <li><b>xx diretório</b> - Inclui </li>
+  <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2"><b> Trabalho-final-grupo2</b></a> - Inclui todos os arquivos listados acima </li>
 </ul>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
 <h2> :book: PRINCIPAIS FERRAMENTAS UTILIZADAS </h2>
 
-<p>Spark é uma biblioteca de processamento de dados distribuído que oferece uma plataforma escalável para análise e processamento de grandes volumes de dados em tempo real. Sua importância reside na sua capacidade de acelerar o processamento de dados através da execução em paralelo em clusters de servidores, permitindo a execução de algoritmos sofisticados em grandes conjuntos de dados.
+<p><strong>Spark</strong> é uma biblioteca de processamento de dados distribuído que oferece uma plataforma escalável para análise e processamento de grandes volumes de dados em tempo real. Sua importância reside na sua capacidade de acelerar o processamento de dados através da execução em paralelo em clusters de servidores, permitindo a execução de algoritmos sofisticados em grandes conjuntos de dados.
 
 No contexto de detecção de fraudes, o Spark é especialmente útil para analisar conjuntos de dados para detectar padrões e anomalias que possam indicar atividades fraudulentas. O Spark tornou-se uma ferramenta essencial dentro do nosso trabalho para a detecção de fraudes, permitindo a identificação e ação imediata em transações suspeitas feitas em contas de clientes com um intervalo menor que 2 minutos, ajudando a prevenir perdas financeiras e proteger a segurança dos usuários de conta corrente.</p>
 
-<p>Também contamos com o auxílio da bibliteca Pandas nos Dataframes, já que esta ferramenta além de posuir compatibilidade com o Spark, auxilia com sua melhor visualização do Dataframe, e com facilidade de uso, por ser mais popular e ter filtragens de dados melhor documentadas.</p>
+<p>Também contamos com o auxílio da bibliteca <strong>Pandas</strong> nos Dataframes, já que esta ferramenta além de posuir compatibilidade com o Spark, auxilia com sua melhor visualização do Dataframe, e com facilidade de uso, por ser mais popular e ter filtragens de dados melhor documentadas.</p>
+
+<p> Por fim, utilizamos do <strong>Power BI</strong>, uma ferramenta de business intelligence desenvolvida pela Microsoft, que permite a criação de dashboards e relatórios interativos com base em dados de diversas fontes. Para o nosso dashboard de fraudes de conta corrente, o Power BI foi importante por permitir a visualização clara e rápida dos dados, bem como a criação de gráficos e tabelas que facilitam a identificação de padrões e anomalias. Com o uso do Power BI, foi possível reunir informações de diversas fontes, como transações bancárias e dados de clientes, e consolidá-las em um único painel, tornando a análise mais eficiente e precisa.</p>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
 <h2> :clipboard: INSTRUÇÃO DE EXCECUÇÃO</h2>
-<p>A ordem de execução dos arquivos do prorama a seguir:</p>
-<p><b>1) arquivo 1</b></p>
-<p>Primeiro, </p>
-<p>Depois /p>
-<p>Finalmente, </p>
+<p>A ordem de possível execução dos arquivos do programa a seguir, deve ser executada após realizar o dowload do arquivo ZIP do <a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2"><b>nosso caderno</b></a>:</p>
+<p><b>1) Arquivos CSV (as tabelas que utilzamos para todo o projeto)</b></p>
+<p>Primeiro, caso você queira checar nossos dados e realizar sua próprias análises, você deve separar os principais datasets tratdos, dentre eles dentro da pasta "data" temos uma outra pasta "clients" na qual você pode acessar a pasta "clients_clean" e usufruir de qualquer um dos csv ali dispostos, quase o mesmo caminho você pode acessar as transações abrindo a pasta de "transaction" e depois "transaction_clean", por fim abra a pasta "fraudes" e acesse ou o dataset principal "dataset_fraude.csv", ou só com fraudes de entrada "dataset_fraudes_in.csv", ou só com fraudes de saída "dataset_fraudes_out.csv".</p>
+
+<p>Depois você pode explorar qualquer um dos nossos arquivos executáveis, descritos aqui na parte de "descrição dos arquivos do projeto", os arquivos com terminação .py ou .ipynb são ligados a códigos de Python utiliados para fazer a limpeza e organização dos dados, a filtragem de fraudes ou para a conexão dos dados com a Azure ou Power BI.Também possuímos os arquivos com final .sql, que sâo utilizados para as measures do nosso dashboard, diferente do nosso arquivo vom final .pbix que você pode visualizar o arquivo final do POwer BI do nosso dashboard.</p>
+
+<p>Finalizando, </p>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
-<h2> :books: REFERÊNCIAS</h2>
+<h2> :books: FERRAMENTAS </h2>
 <ul>
   <li><p>Nome </p>
       <p>Available: Link</p>
@@ -107,7 +113,7 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
       <h3 align="middle">Bruna Bellini Faria</h3>
       <p align="center">
       <a href="https://github.com/brunabellini"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25px"></a>
-      <a href="http://linkedin.com/in/cintiafasioli"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
+      <a href="https://www.linkedin.com/in/brunabellinifaria/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
         </p>
   </tr>
 
@@ -121,7 +127,7 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
       <h3 align="middle">Cintia Fasioli</h3>
       <p align="center">
       <a href="https://github.com/CintiaFasioli"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25px"</a>
-      <a href="https://www.linkedin.com/in/brunabellinifaria/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
+      <a href="http://linkedin.com/in/cintiafasioli"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
         </p>
     </td>
     <td width="300px">
@@ -130,8 +136,8 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
         </p>
      <h3 align="middle">Lais Oliveira Melo</h3>                  
       <p align="center">
-      <a href="https://github.com/ligianogueira1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25px"></a>
-      <a href="https://www.linkedin.com/in/anna-ligia-alves-nogueira/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
+      <a href="https://github.com/Lasmelo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25px"></a>
+      <a href="https://www.linkedin.com/in/laisoliveiramelo/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
         </p>
     </td>
    <td width="300px">
@@ -140,8 +146,8 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
         </p>
       <h3 align="middle">Nathália Martins</h3>
       <p align="center">
-      <a href="https://github.com/jonesamandajones"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25px"></a>
-      <a href="https://www.linkedin.com/in/amanda-oliveira-jones/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
+      <a href="https://github.com/martinsnathalia"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25px"></a>
+      <a href="https://www.linkedin.com/in/nathaliamartinss/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px"></a>
         </p>
     </td>
    </tr>
