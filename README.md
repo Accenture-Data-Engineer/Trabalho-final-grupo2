@@ -80,7 +80,7 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
 <p>Você pode explorar qualquer um dos nossos arquivos executáveis, descritos aqui no tópico "Descrição dos arquivos do projeto". Os arquivos com extensão .py ou .ipynb são ligados a códigos de Python utiliados para fazer a limpeza e organização dos dados, a filtragem de fraudes ou para a conexão dos dados com a Azure ou Power BI. Também possuímos os arquivos com extensão .sql, que sâo utilizados para as measures do nosso Dashboard, diferente do nosso arquivo com extensão .pbix que você pode visualizar o arquivo final do Power BI do nosso Dashboard.</p>
 
 <p><b>4) Dashboard Power BI</b></p>
-<p>Caso você não queira abrir os arquivos, disponibilizamos <a href="https://app.powerbi.com/view?r=eyJrIjoiOTQyNjZlZjQtZjAwZC00YjMzLWJmN2MtMjE5M2M0ZmMwMDViIiwidCI6IjIwMDRlODQ2LTcyNWQtNDVmMi04OTkwLTNlNWNhMzcxZDQzYiJ9"><b>aqui o link para nosso dashboard interativo</b></a>. Nele, você pode obter diversos insights, questionamentos e filtragens por categorias ou dados únicos.</p>
+<p>Caso você não queira abrir os arquivos, disponibilizamos <a href="https://app.powerbi.com/view?r=eyJrIjoiZjMyZTI3YmUtYTM0My00YzUzLWI2NDctYTA2NDhkNjE4ODlhIiwidCI6IjIwMDRlODQ2LTcyNWQtNDVmMi04OTkwLTNlNWNhMzcxZDQzYiJ9"><b>aqui o link para nosso dashboard interativo</b></a>. Nele, você pode obter diversos insights, questionamentos e filtragens por categorias ou dados únicos.</p>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
