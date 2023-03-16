@@ -25,14 +25,14 @@
 <p>Esse projeto inclui arquivos executáveis e de destino, além de você conseguir acesso ao nosso diretório fonte (repositório), como a seguir:</p>
 <h4>Arquivos executáveis:</h4>
 <ul>
-  <li><a href="xx"><b>connection.py</b></a> - Usado para conectar e popular nossos dados para o banco de dados da Azure via SQL Alchemy</li>
-   <li><a href="xx"><b>main.ipynb</b></a> - Usado para criar esquemas das tabelas, limpeza e organização dados originais para se tornarem tratados</li>
-   <li><a href="xx"><b>query_filtrar_fraudes.ipynb</b></a> - Usado para filtrar as fraudes (in, out e total) em Python com com PySpark e Pandas</li>
-   <li><a href="xx"><b>migration.py</b></a> - Usado para realizar a conexão com o banco de dados e importar as tabelas para o Power BI com o Pandas</li>
-   <li><a href="xx"><b>create_table.sql</b></a> - Usado para criar tabelas de cliente, transações e fraudes</li>
-   <li><a href="xx"><b>fraud_view.sql</b></a> - Usado para criar visualização das fraudes utilizando SQL</li>
-   <li><a href="xx"><b>state_code.sql</b></a> - Usado para criar tabela de estados para a tentaiva de gráfico por região em nosso Dashboard</li>
-   <li><a href="xx"><b>projeto_final.pbix</b></a> - Usado para o arquivo final do Dashboard do Power BI com todas as measures finais</li>
+  <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/code/connection.py"><b>connection.py</b></a> - Usado para conectar e popular nossos dados para o banco de dados da Azure via SQL Alchemy</li>
+   <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/code/main.ipynb"><b>main.ipynb</b></a> - Usado para criar esquemas das tabelas, limpeza e organização dados originais para se tornarem tratados</li>
+   <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/code/querys_filtrar_fraudes.ipynb"><b>query_filtrar_fraudes.ipynb</b></a> - Usado para filtrar as fraudes (in, out e total) em Python com com PySpark e Pandas</li>
+   <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/code/migration.py"><b>migration.py</b></a> - Usado para realizar a conexão com o banco de dados e importar as tabelas para o Power BI com o Pandas</li>
+   <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/code/create_tables.sql"><b>create_table.sql</b></a> - Usado para criar tabelas de cliente, transações e fraudes</li>
+   <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/code/fraud_view.sql"><b>fraud_view.sql</b></a> - Usado para criar visualização das fraudes utilizando SQL</li>
+   <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/code/state_code.sql"><b>state_code.sql</b></a> - Usado para criar tabela de estados para a tentaiva de gráfico por região em nosso Dashboard</li>
+   <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/projeto_final.pbix"><b>projeto_final.pbix</b></a> - Usado para o arquivo final do Dashboard do Power BI com todas as measures finais</li>
 </ul>
 
 <h4>Arquivos de destino:</h4> 
@@ -80,7 +80,7 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
 <p>Você pode explorar qualquer um dos nossos arquivos executáveis, descritos aqui no tópico "Descrição dos arquivos do projeto". Os arquivos com extensão .py ou .ipynb são ligados a códigos de Python utiliados para fazer a limpeza e organização dos dados, a filtragem de fraudes ou para a conexão dos dados com a Azure ou Power BI. Também possuímos os arquivos com extensão .sql, que sâo utilizados para as measures do nosso Dashboard, diferente do nosso arquivo com extensão .pbix que você pode visualizar o arquivo final do Power BI do nosso Dashboard.</p>
 
 <p><b>4) Dashboard Power BI</b></p>
-<p>Caso você não queira abrir os arquivos, disponibilizamos aqui o link para nosso dashboard interativo. Nele, você pode obter diversos insights, questionamentos e filtragens por categorias ou dados únicos.</p>
+<p>Caso você não queira abrir os arquivos, disponibilizamos <a href="https://app.powerbi.com/view?r=eyJrIjoiOTQyNjZlZjQtZjAwZC00YjMzLWJmN2MtMjE5M2M0ZmMwMDViIiwidCI6IjIwMDRlODQ2LTcyNWQtNDVmMi04OTkwLTNlNWNhMzcxZDQzYiJ9"><b>aqui o link para nosso dashboard interativo</b></a>. Nele, você pode obter diversos insights, questionamentos e filtragens por categorias ou dados únicos.</p>
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
