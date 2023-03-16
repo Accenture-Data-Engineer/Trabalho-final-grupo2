@@ -25,23 +25,23 @@
 <p>Esse projeto inclui arquivos executáveis e de destino, além de você conseguir acesso ao nosso diretório fonte (repositório), como a seguir:</p>
 <h4>Arquivos executáveis:</h4>
 <ul>
-  <li><b>connection.py</b> - Usado para conectar e popular nossos dados para o banco de dados da Azure via SQL Alchemy</li>
-  <li><b>main.ipynb</b> - Usado para criar esquemas das tabelas, limpeza e organização dados originais para se tornarem tratados</li>
-  <li><b>query_filtrar_fraudes.ipynb</b> - Usado para filtrar as fraudes (in, out e total) em Python com com PySpark e Pandas</li>
-  <li><b>migration.py</b> - Usado para realizar a conexão com o banco de dados e importar as tabelas para o Power BI com o Pandas</li>
-  <li><b>create_table.sql</b> - Usado para criar tabelas de cliente, transações e fraudes</li>
-  <li><b>fraud_view.sql</b> - Usado para criar visualização das fraudes utilizando SQL</li>
-  <li><b>state_code.sql</b> - Usado para criar tabela de estados para a tentaiva de gráfico por região em nosso Dashboard</li>
-  <li><b>projeto_final.pbix</b> - Usado para o arquivo final do Dashboard do Power BI com todas as measures finais</li>
+  <li><a href="xx"><b>connection.py</b></a> - Usado para conectar e popular nossos dados para o banco de dados da Azure via SQL Alchemy</li>
+   <li><a href="xx"><b>main.ipynb</b></a> - Usado para criar esquemas das tabelas, limpeza e organização dados originais para se tornarem tratados</li>
+   <li><a href="xx"><b>query_filtrar_fraudes.ipynb</b></a> - Usado para filtrar as fraudes (in, out e total) em Python com com PySpark e Pandas</li>
+   <li><a href="xx"><b>migration.py</b></a> - Usado para realizar a conexão com o banco de dados e importar as tabelas para o Power BI com o Pandas</li>
+   <li><a href="xx"><b>create_table.sql</b></a> - Usado para criar tabelas de cliente, transações e fraudes</li>
+   <li><a href="xx"><b>fraud_view.sql</b></a> - Usado para criar visualização das fraudes utilizando SQL</li>
+   <li><a href="xx"><b>state_code.sql</b></a> - Usado para criar tabela de estados para a tentaiva de gráfico por região em nosso Dashboard</li>
+   <li><a href="xx"><b>projeto_final.pbix</b></a> - Usado para o arquivo final do Dashboard do Power BI com todas as measures finais</li>
 </ul>
 
 <h4>Arquivos de destino:</h4> 
 <ul>
-  <li><b>requirements.txt</b> - Contém as versões dos módulos/bibliotecas utilizadas nos nossos códigos</li>
-  <li><b>docker-compose.yaml</b> - Contém o código de configurações para utilização do PySpark e Jupyter notebook</li>
-  <li><b>pasta clients</b> - Contém os csv ligados aos clientes, os datasets originais e os nossos já tratados</li>
-  <li><b>pasta transaction</b> - Contém os csv ligados as transações, os datasets originais e os nossos já tratados</li>
-  <li><b>pasta fraude</b> - Contém os csv ligados a fraudes, separados por fraudes totais, de transações Out (dinehiro que saiu) ou In (dinheiro que entrou)</li>
+  <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/requirements.txt"><b>requirements.txt</b></a> - Contém as versões dos módulos/bibliotecas utilizadas nos nossos códigos</li>
+  <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/blob/main/docker-compose.yaml"><b>docker-compose.yaml</b></a> - Contém o código de configurações para utilização do PySpark e Jupyter notebook</li>
+  <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/tree/main/data/clients"><b>pasta clients</b></a> - Contém os csv ligados aos clientes, os datasets originais e os nossos já tratados</li>
+  <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/tree/main/data/transaction"><b>pasta transaction</b></a> - Contém os csv ligados as transações, os datasets originais e os nossos já tratados</li>
+  <li><a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2/tree/main/data/fraudes"><b>pasta fraude</b></a> - Contém os csv ligados a fraudes, separados por fraudes totais, de transações Out (dinehiro que saiu) ou In (dinheiro que entrou)</li>
 </ul>
 
 <h4>Diretório fonte:</h4>
