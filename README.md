@@ -10,7 +10,9 @@
 <a href="https://imgbox.com/mlNPr8ij" target="_blank"><img src="https://images2.imgbox.com/aa/35/mlNPr8ij_o.gif" alt="image host" height="142px"/></a>
 </p>
 
-<h2> :brain: CONTEXTO E OBJETIVO</h2>
+<h4><a href="#contexto">Contexto e objetivo</a> | <a href="#arquivos">Descrição dos arquivos</a> | <a href="#principais_ferramentas">Principais ferramentas</a> | <a href="#execucao">Instrução de execução</a> | <a href="#ferramentas">Ferramentas</a> | <a href="#creditos">Créditos</a> |</h4>
+
+<h2 id="contexto"> :brain: CONTEXTO E OBJETIVO</h2>
 
 <p>As fraudes em conta corrente podem ocorrer por meio de phishing, onde o fraudador envia e-mails falsos, mensagens de texto, ou utilizar técnicas de engenharia social, como manipulação psicológica, para obter informações confidenciais, como senhas e dados bancários. Também podem ocorrer por meio de skimming, onde os dados do cartão de crédito ou débito são roubados por meio de um dispositivo eletrônico instalado em um caixa eletrônico ou em um terminal de pagamento. Outra forma de fraude em conta corrente é o roubo de identidade, em que o fraudador usa informações pessoais roubadas para abrir contas falsas ou realizar transações em nome da vítima.</p>
 
@@ -18,7 +20,7 @@
 
 <p>Observação: <i>É importante ressaltar que as informações referentes a contas correntes são consideradas dados sensíveis e, portanto, devem ser protegidas de forma adequada. No entanto, no contexto da avaliação deste trabalho, optamos por disponibilizar dados fictícios para ilustrar nossos resultados e análises.</i></p>
 
-<h2> :floppy_disk: DESCRIÇÃO DOS ARQUIVOS DO PROJETO</h2>
+<h2 id="arquivos"> :floppy_disk: DESCRIÇÃO DOS ARQUIVOS DO PROJETO</h2>
 
 <p>Esse projeto inclui arquivos executáveis e de destino, além de você conseguir acesso ao nosso diretório fonte (repositório), como a seguir:</p>
 <h4>Arquivos executáveis:</h4>
@@ -49,7 +51,7 @@
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
-<h2> :book: PRINCIPAIS FERRAMENTAS UTILIZADAS </h2>
+<h2 id="principais_ferramentas"> :book: PRINCIPAIS FERRAMENTAS UTILIZADAS </h2>
 
 <p>Primeiramente, utilizamos o<strong>Spark</strong> que é uma biblioteca de processamento de dados distribuído que oferece uma plataforma escalável para análise e processamento de grandes volumes de dados em tempo real. Sua importância reside na sua capacidade de acelerar o processamento de dados através da execução em paralelo em clusters de servidores, permitindo a execução de algoritmos sofisticados em grandes conjuntos de dados.
 
@@ -65,7 +67,7 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
-<h2> :clipboard: INSTRUÇÃO DE EXECUÇÃO</h2>
+<h2 id="execucao"> :clipboard: INSTRUÇÃO DE EXECUÇÃO</h2>
 <p>A ordem de possível execução dos arquivos do programa a seguir, deve ser executada após realizar o dowload do arquivo ZIP do <a href="https://github.com/Accenture-Data-Engineer/Trabalho-final-grupo2"><b>nosso caderno</b></a>:</p>
 
 <p><b>1) Contextualização e entendimento da organização</b></p>
@@ -82,7 +84,7 @@ No contexto de detecção de fraudes, o Spark é especialmente útil para analis
 
 <a href="https://imgbox.com/3tZuCnVg" target="_blank"><img src="https://images2.imgbox.com/42/88/3tZuCnVg_o.png" alt="image host" height="5px" width="900px"/></a>
 
-<h2> :books: FERRAMENTAS </h2>
+<h2 id="ferramentas"> :books: FERRAMENTAS </h2>
 <ul>
   <li>Azure</li>
    <li>Power BI</li>
